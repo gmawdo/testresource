@@ -19,7 +19,7 @@ editors:
           discoverable: false
     containers:
       - name: cstheia-ide
-        image: "datasignals/coffee-editor"
+        image: "docker.io/datasignals/coffee-editor:latest"
         mountSources: true
         ports:
           - exposedPort: 3000
