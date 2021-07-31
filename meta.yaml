@@ -1,5 +1,4 @@
 version: 1.0.0
-publisher: lockular
 editors:
   - id: eclipse/che-theia/next
     title: Eclipse Theia development version.
