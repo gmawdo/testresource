@@ -20,7 +20,7 @@ editors:
           discoverable: false
     containers:
       - name: cstheia-ide
-        image: "docker.io/datasignals/coffee-editor:latest"
+        image: "docker.io/elswork/theia"
         mountSources: true
         ports:
           - exposedPort: 3000
