@@ -2,7 +2,8 @@ apiVersion: v2
 publisher: lockular
 name: cofee
 version: 0.0.1
-editors:
+type: Che Editor
+spec:
   - id: eclipse/che-theia/next
     title: Eclipse Theia development version.
     displayName: theia-ide
