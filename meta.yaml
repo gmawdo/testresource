@@ -1,8 +1,7 @@
 apiVersion: v2
-publisher: eclipse
-name: che-theia
-version: next
-type: Che Editor
+publisher: lockular
+name: cofee
+version: 0.0.1
 editors:
   - id: eclipse/che-theia/next
     title: Eclipse Theia development version.
