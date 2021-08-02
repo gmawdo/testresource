@@ -3,7 +3,7 @@ publisher: lockular
 name: cofee
 version: 0.0.1
 type: Che Editor
-spec:
+editors:
   - id: eclipse/che-theia/next
     title: Eclipse Theia development version.
     displayName: theia-ide
@@ -11,6 +11,7 @@ spec:
     icon: https://raw.githubusercontent.com/theia-ide/theia/master/logo/theia-logo-no-text-black.svg?sanitize=true
     repository: https://github.com/eclipse-che/che-theia
     firstPublicationDate: "2021-01-01"
+spec:
     endpoints:
       - name: "cstheia"
         public: true
