@@ -28,4 +28,4 @@ spec:
         mountSources: true
         ports:
           - exposedPort: 3000
-        memoryLimit: "2048M"
+        memoryLimit: "512M"
