@@ -24,7 +24,7 @@ spec:
           discoverable: false
     containers:
       - name: cstheia-ide
-        image: "docker.io/datasignals/coffee-editor:latest"
+        image: "docker.io/datasignals/csiptheia:silverturing"
         mountSources: true
         ports:
           - exposedPort: 3000
