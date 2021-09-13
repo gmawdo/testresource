@@ -24,7 +24,7 @@ spec:
           discoverable: false
     containers:
       - name: cstheia-ide
-        image: "docker.io/datasignals/csiptheia:silverturing"
+        image: "docker.io/datasignals/csiptheia:premier"
         mountSources: true
         ports:
           - exposedPort: 3000
